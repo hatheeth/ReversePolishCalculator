@@ -90,5 +90,11 @@ int main() {
     evaluate('*', 0);
     evaluate('=', 0);
 
+    // Example: ? 10 ? 2 / = 
+    evaluate('?', 10);
+    evaluate('?', 2);
+    evaluate('/', 0);
+    evaluate('=', 0);
+    
     return 0;
 }
